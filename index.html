@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Dream Restaurant</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="logo">Dream Restaurant</h1>
+      <nav class="nav">
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Reserve</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h2>Welcome to Dream Restaurant</h2>
+        <p>Simple, seasonal dishes made with care. Reserve a table or explore our menu.</p>
+        <a href="#contact" class="button">Reserve a Table</a>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="wrap">
+        <h3>Sample Menu</h3>
+        <ul class="menu-list">
+          <li><strong>Market Salad</strong> — seasonal greens, vinaigrette</li>
+          <li><strong>Roast Catch</strong> — pan-roasted fish, citrus butter</li>
+          <li><strong>Wood-fired Veg</strong> — heirloom veg, herb salsa</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="wrap">
+        <h3>About Us</h3>
+        <p>Dream Restaurant is a cozy neighborhood place focused on fresh ingredients and friendly service. This demo site is intended for deployment practice.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="wrap">
+        <h3>Reserve a Table</h3>
+        <form id="reserveForm">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Phone or Email <input type="text" name="contact" required></label>
+          <label>Date and time <input type="datetime-local" name="datetime"></label>
+          <button type="submit" class="button">Request Reservation</button>
+        </form>
+        <p class="note">This is a demo form — submissions are handled locally for the preview.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© Dream Restaurant — demo site</small>
+      <nav class="foot-nav"><a href="#">Privacy</a> · <a href="#">Contact</a></nav>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
